@@ -113,3 +113,75 @@ button {
     margin-top: 8px;
     line-height: 1.3;
 }
+/* Quote Section */
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 20px;
+}
+
+.quote-container {
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    line-height: 1.3;
+    margin-bottom: 16px;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    color: #1F2937;
+}
+
+/* Call to Action Section */
+.cta-section {
+    background: white;
+    padding: 100px 20px;
+}
+
+.cta-box {
+    background: #3882F6;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 48px 72px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.cta-copy h3 {
+    color: white;
+    font-size: 24px;
+    margin: 0 0 8px;
+}
+
+.cta-copy p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0;
+}
+
+.cta-button {
+    border: 2px solid white;
+    flex-shrink: 0;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 36px 20px;
+    font-size: 18px;
+}
